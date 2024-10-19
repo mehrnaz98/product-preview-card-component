@@ -568,6 +568,22 @@ video {
   margin-top: 1rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -731,6 +747,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -758,6 +778,15 @@ video {
   padding-right: 1.25rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-\[0\.875rem\] {
   font-size: 0.875rem;
 }
@@ -776,6 +805,10 @@ video {
 
 .text-\[2\.3rem\] {
   font-size: 2.3rem;
+}
+
+.text-\[0\.6rem\] {
+  font-size: 0.6rem;
 }
 
 .uppercase {
@@ -814,8 +847,22 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#844833\] {
+  --tw-text-opacity: 1;
+  color: rgb(132 72 51 / var(--tw-text-opacity));
+}
+
+.text-stone-500 {
+  --tw-text-opacity: 1;
+  color: rgb(120 113 108 / var(--tw-text-opacity));
+}
+
 .line-through {
   text-decoration-line: line-through;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 .montserrat-medium {
@@ -843,7 +890,16 @@ video {
   letter-spacing: 0.3rem;
 }
 
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
 @media (min-width: 640px) {
+  .sm\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -873,5 +929,15 @@ video {
   .sm\:py-9 {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
+  }
+
+  .sm\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
