@@ -809,6 +809,14 @@ video {
   padding-top: 0.5rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -851,6 +859,14 @@ video {
 
 .text-\[0\.2rem\] {
   font-size: 0.2rem;
+}
+
+.text-\[0\.4rem\] {
+  font-size: 0.4rem;
+}
+
+.text-\[0\.5rem\] {
+  font-size: 0.5rem;
 }
 
 .uppercase {
@@ -979,6 +995,10 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:p-0 {
+    padding: 0px;
   }
 
   .sm\:px-9 {
